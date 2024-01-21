@@ -1,0 +1,98 @@
+.header-container {
+
+
+    text-transform: uppercase;
+
+    justify-content: space-between;
+    padding-top: 10px;
+
+
+}
+
+.header-logo {
+
+
+    display: flex;
+
+
+}
+
+.header-logo img {
+    width: 200px;
+    object-fit: contain;
+}
+
+.header-logo span {
+
+    font-size: 12px;
+    text-transform: none;
+    font-weight: 500;
+    color: black;
+
+}
+
+
+.header-intro {
+
+    text-align: center;
+}
+
+.header-intro-company {
+    color: #1771e5;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.header-intro-desc {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+.header-intro-address {
+    font-size: 14px;
+    color: gray;
+}
+
+.header-phone {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.header-phone-icon {
+    border-radius: 5px;
+    background-color: #1771e6;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+.header-tel {
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header-phone-icon {
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}

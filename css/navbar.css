@@ -1,0 +1,9 @@
+#navbarScroll a,.navbar-brand{
+    text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: whitesmoke;
+}
+.btn-outline-info{
+    color: azure;
+}

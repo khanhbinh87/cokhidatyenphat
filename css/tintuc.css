@@ -1,0 +1,43 @@
+.title-tt {
+    margin-top: 20px;
+    color: #2817e6;
+    border-bottom: 5px solid #544b4b61;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.621);
+}
+
+.list-new {
+    display: flex;
+    border-bottom: 2px solid #80808040;
+    padding: 10px 0px;
+}
+.list-new-content {
+    width: calc(100% - 250px);
+    margin-left: 10px;
+}
+.list-new-caret {
+    display: flex;
+    align-items: center;
+}
+.list-new-caret a{
+    color: white;
+}
+.list-new-calendar {
+    font-size: 15px;
+}
+.list-new-image {
+    width: 250px;
+    flex-shrink: 0;
+    height: 250px;
+}
+.list-new-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.ion-calendar{
+    color: rgb(202, 136, 56);
+}
+.list-new-end{
+    border-bottom: none;
+}

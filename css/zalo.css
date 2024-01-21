@@ -1,0 +1,30 @@
+.zalofix {
+    width: 50px;
+    position: fixed;
+    bottom: 110px;
+    z-index: 10;
+    padding-left: 5px;
+
+
+    
+}
+
+.zalofix img{
+    max-width: 100%;
+
+}
+.imgzalo,
+.imgsms {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.zalo{
+    font-weight: 600;
+    font-size: 18px;
+    color: blue;
+    background: orange;
+    width: 180px;
+    border-radius: 5px;
+    padding: 5px
+    
+}

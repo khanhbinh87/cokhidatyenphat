@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.ion-navicon {
+    font-size: 25px;
+}
+.ion-home {
+    font-size: 20px;
+}
+.card-img-top {
+    width: 100% !important;
+    height: 200px;
+    object-fit: cover;
+    border: none !important;
+    transition: all 0.5s linear;
+}
+.card-img-top:hover {
+    transform: scale(1.2);
+    transition: all 0.5s linear;
+}
+
+.img {
+    overflow: hidden;
+}
+.card {
+    height: 500px;
+    justify-content: space-around;
+}
+.card-title {
+    color: blue;
+}
+
+.title {
+    color: blue;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.621);
+    padding: 10px;
+    margin: 20px auto;
+    border-bottom: 5px solid #544b4b61;
+}
+
+.card-text {
+    font-size: 15px;
+    height: 200px;
+    overflow: hidden;
+}
+.list-product-content {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.list-product-content:hover {
+    color: #1771e6;
+}
+.list-product-title {
+    text-transform: uppercase;
+    padding: 10px 5px;
+    background-color: #1771e6;
+    position: relative;
+    color: white;
+    font-size: 20px;
+}
+.list-product-title:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: -27px;
+    border-top: 28px solid transparent;
+    border-bottom: 28px solid transparent;
+    border-left: 28px solid #1771e6;
+    top: -6px;
+}
+
+.list-product-image {
+    overflow: hidden;
+    border-radius: 5px;
+}
+.list-product-image img {
+    width: 100%;
+    height: 300px;
+    transition: all 0.2s linear;
+    object-fit: cover;
+}
+.list-product-image img:hover {
+    transform: scale(1.3);
+    transition: all 0.2s linear;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+
+    border-left: 60px solid green;
+}
+
+.product {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.detail {
+    font-weight: 500;
+    background-color: #1771e6;
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,26 @@
+.nghe li {
+        font-size: 20px;
+    }
+
+.intro {
+    font-size: 20px;
+
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: black;
+    background-color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.intro-img {
+    width: 500px;
+    height: 300px;
+}

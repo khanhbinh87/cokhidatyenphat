@@ -1,0 +1,38 @@
+p {
+    color: #666;
+
+    margin-bottom: 10px;
+}
+
+.contact {
+    margin-top: 25px;
+}
+.contact input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    padding: 12px;
+    resize: none;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: #ddd;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    font-weight: 500;
+}
+
+.title {
+    color: blue;
+    padding: 10px;
+    border-bottom: 5px solid #544b4b61;
+    background-color: rgba(128, 128, 128, 0.621);
+    text-transform: uppercase;
+}

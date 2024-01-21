@@ -1,0 +1,10 @@
+.product-detail img{
+    
+        width: 500px!important;
+        height: 500px;
+        object-fit: cover;
+   
+}
+.product-detail .bong{
+        padding-left: 20px;
+    }

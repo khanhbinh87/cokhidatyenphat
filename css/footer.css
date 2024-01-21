@@ -1,0 +1,59 @@
+#footer {
+    background-color: #162a40;
+    color: #fff;
+}
+.footer-top {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-top: 40px;
+    background: #162b40 url('../image/bg.png') no-repeat top left;
+    padding-bottom: 40px;
+
+}
+.footer-title {
+    position: relative;
+}
+.footer-title h2 {
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-title:after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: -10px;
+    height: 2px;
+    background: #c3c3c3;
+    display: block;
+    width: 100px;
+}
+.footer-content {
+    margin-top: 30px;
+}
+.footer-content p {
+    color: white;
+}
+.fan-footer textarea {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.fan-footer input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.fan-footer textarea {
+    resize: none;
+    padding: 11px;
+}
+#show {
+    color: gray;
+}
