@@ -116,3 +116,19 @@ a {
     padding: 5px;
     text-transform: uppercase;
 }
+
+a{
+    color: white;
+}
+.footer-title h3 {
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.tel-2{
+    color: black;
+}
+.tel{
+    color:red
+}

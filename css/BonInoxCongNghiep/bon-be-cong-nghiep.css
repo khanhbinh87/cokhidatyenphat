@@ -1,0 +1,25 @@
+.image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+strong {
+    color: black;
+}
+h1 {
+    color: gray;
+}
+.detail {
+    border-radius: 5px;
+    background-color: orangered;
+}
+.tele {
+    background-image: linear-gradient(to bottom right, yellow, red);
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+}
+.ion-ios-telephone{
+    font-size: 30px;
+    color: brown
+}
