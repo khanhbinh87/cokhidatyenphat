@@ -4,6 +4,7 @@
     bottom: 110px;
     z-index: 10;
     padding-left: 5px;
+    left: 10px;
 
 
     
@@ -23,7 +24,7 @@
     font-size: 18px;
     color: blue;
     background: orange;
-    width: 180px;
+    width: 140px;
     border-radius: 5px;
     padding: 5px
     

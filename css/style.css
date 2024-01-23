@@ -135,3 +135,28 @@ a {
 span {
     color: darkgreen;
 }
+.categories .nav-link{
+    color: rgb(171 98 72) !important;
+}
+.categories .nav-link:hover{
+    color: black!important;
+    font-weight: 500;
+}
+.imgzalo {
+    animation: zoom-in-zoom-out 1s ease infinite;
+    
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(2, 2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
