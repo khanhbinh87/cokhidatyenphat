@@ -117,7 +117,7 @@ a {
     text-transform: uppercase;
 }
 
-a{
+a {
     color: white;
 }
 .footer-title h3 {
@@ -126,9 +126,12 @@ a{
     text-transform: uppercase;
     color: #fff;
 }
-.tel-2{
+.tel-2 {
     color: black;
 }
-.tel{
-    color:red
+.tel {
+    color: red;
+}
+span {
+    color: darkgreen;
 }
