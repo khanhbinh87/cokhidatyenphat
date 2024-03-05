@@ -21,12 +21,11 @@
         <meta name="geo" content="VN" />
         <meta property="og:site_name" content="https://cokhidatyenphat.com" />
 
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/css/bootstrap.min.css" rel="stylesheet" />
 
-        <link href="css/style.css" rel="stylesheet" />
-        <link rel="stylesheet" href="css/header.css" />
-        <link rel="stylesheet" href="css/navbar.css" />
-        <link rel="stylesheet" href="css/tintuc.css" />
+        <link href="/css/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/css/header.css" />
+        <link rel="stylesheet" href="/css/navbar.css" />
 
         <meta
             name="google-site-verification"
@@ -34,34 +33,64 @@
         />
         <link
             rel="stylesheet"
-            href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
-        />
-        <link rel="stylesheet" href="css/header.css" />
-        <link rel="stylesheet" href="css/footer.css" />
-        <link rel="stylesheet" href="css/navleft.css" />
-        <link rel="stylesheet" href="css/tintuc.css" />
-        <link rel="icon" href="image/favicon.png" />
-        <link
-            rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
         />
-        <title>Cơ khí Đạt Yến Phát</title>
+        <link
+            rel="stylesheet"
+            href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+        />
+        <link rel="stylesheet" href="/css/header.css" />
+        <link rel="stylesheet" href="/css/footer.css" />
+        <link rel="stylesheet" href="/css/navleft.css" />
+        <link rel="stylesheet" href="/css/zalo.css" />
+        <link
+            rel="stylesheet"
+            href="/css/BonInoxCongNghiep/bon-be-cong-nghiep.css"
+        />
+
+        <link rel="icon" href="../image/logo.png" />
+        <title>Bồn khuấy gia nhiệt</title>
     </head>
 
     <body>
+        <!--zalo  -->
+        <div class="zalofix">
+            <div>
+                <a
+                    href="https://zalo.me/0937093608"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img src="/image/zalo.png" class="imgzalo" alt="Zalo" />
+                </a>
+                <a href="sms:0395032036" target="_blank" rel="noreferrer">
+                    <img src="/image/sms.png" class="imgsms" alt="SMS" />
+                </a>
+            </div>
+            <div class="xdhotline" style="bottom: '60px !important'">
+                <a href="tel:0937093608">
+                    <div class="goixd">
+                        <p class="xdphone"></p>
+                        <div>
+                            <p class="zalo">0937093608</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
         <!-- Header -->
         <div class="header-container container">
             <div class="row">
                 <div class="header-logo col-12 col-sm-6 col-md-4 col-lg-2">
-                    <img src="image/logo.png" alt="logo" />
+                    <img src="../image/logo.png" alt="logo" />
                 </div>
                 <div
                     class="header-intro col-12 col-sm-6 col-md-8 col-lg-8 pt-3"
                 >
-                    <h1 class="header-intro-company">
+                    <p class="header-intro-company">
                         công ty tnhh sx tm kỹ thuật cơ khí <br />
                         ĐẠT YẾN PHÁT
-                    </h1>
+                    </p>
                     <p class="header-intro-desc mb-2">
                         Chuyên phân phối và sản xuất bồn inox, bồn chứa công
                         nghiệp
@@ -110,7 +139,7 @@
                         <li class="nav-item">
                             <a
                                 class="nav-link"
-                                href="index.html"
+                                href="../index.html"
                                 tabindex="-1"
                                 aria-disabled="true"
                             >
@@ -143,7 +172,7 @@
                                 <li>
                                     <a
                                         class="dropdown-item"
-                                        href="gioi-thieu.html"
+                                        href="../gioi-thieu.html"
                                         ><i class="ion-arrow-right-b"></i> Về
                                         chúng tôi</a
                                     >
@@ -155,7 +184,7 @@
                                 <li>
                                     <a
                                         class="dropdown-item"
-                                        href="tam-nhin.html"
+                                        href="../tam-nhin.html"
                                         ><i class="ion-arrow-right-b"></i> Tầm
                                         nhìn - sứ mệnh</a
                                     >
@@ -180,7 +209,7 @@
                                 <li>
                                     <a
                                         class="dropdown-item"
-                                        href="san-pham.html"
+                                        href="../san-pham.html"
                                         ><i class="ion-arrow-right-b"></i> Sản
                                         phẩm</a
                                     >
@@ -189,7 +218,9 @@
                                     <hr class="dropdown-divider" />
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="dich-vu.html"
+                                    <a
+                                        class="dropdown-item"
+                                        href="../dich-vu.html"
                                         ><i class="ion-arrow-right-b"></i> Dịch
                                         vụ</a
                                     >
@@ -199,7 +230,7 @@
                         <li class="nav-item">
                             <a
                                 class="nav-link"
-                                href="cong-nghiep.html"
+                                href="../cong-nghiep.html"
                                 tabindex="-1"
                                 aria-disabled="true"
                                 >Ngành công nghiệp</a
@@ -208,7 +239,7 @@
                         <li class="nav-item">
                             <a
                                 class="nav-link"
-                                href="tin-tuc.html"
+                                href="../tin-tuc.html"
                                 tabindex="-1"
                                 aria-disabled="true"
                                 >Tin tức</a
@@ -217,13 +248,24 @@
                         <li class="nav-item">
                             <a
                                 class="nav-link"
-                                href="lien-he.html"
+                                href="../lien-he.html"
                                 tabindex="-1"
                                 aria-disabled="true"
                                 >Liên hệ</a
                             >
                         </li>
                     </ul>
+                    <form class="d-flex">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Nhập sản phẩm "
+                            aria-label="Search"
+                        />
+                        <button class="btn btn-outline-info" type="submit">
+                            Search
+                        </button>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -233,14 +275,14 @@
         <!-- navleft -->
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-3 col-lg-3">
+                <div class="col-12 col-md-4 col-lg-3">
                     <div class="top">
                         <div class="single-sidebar">
                             <div class="sec-title">
-                                <h4>
-                                    <i class="ion-navicon-round"></i> Danh mục
-                                    sản phẩm
-                                </h4>
+                                <div class="d-flex gap-3 align-items-baseline">
+                                    <i class="ion-navicon"></i>
+                                    <h4>Danh mục sản phẩm</h4>
+                                </div>
                             </div>
                             <ul class="categories">
                                 <li>
@@ -325,7 +367,7 @@
                             <div class="row">
                                 <div class="col-12 col-md-12 col-lg-12">
                                     <img
-                                        src="./image/user.png"
+                                        src="../image/user.png"
                                         alt="user"
                                         style="
                                             width: 100%;
@@ -359,7 +401,6 @@
                                                     href="skype:0395032036?chat"
                                                     class="tel-2"
                                                 >
-                                                    <img />
                                                     0395032036
                                                 </a>
                                             </p>
@@ -386,7 +427,6 @@
                                                     href="skype:0909999999?chat"
                                                     class="tel-2"
                                                 >
-                                                    <img />
                                                     0937093608
                                                 </a>
                                             </p>
@@ -397,120 +437,49 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-9 col-lg-9">
-                    <h3 class="title-tt">Tin Tức</h3>
-                    <div class="list-new">
-                        <div class="list-new-image">
-                            <img
-                                src="/image/TinTuc/che-tao-inox.jpeg"
-                                alt="che-tao-inox"
-                            />
+                <div class="col-12 col-md-8 col-lg-9">
+                    <!-- content -->
+                    <!-- col-1 -->
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
+                            <div class="image">
+                                <img
+                                    src="../image/BonKhuayThucPham/bon-chua-gia-nhiet.jpeg"
+                                    alt="Bồn khuấy gia nhiệt"
+                                />
+                            </div>
                         </div>
-                        <div class="list-new-content">
-                            <h3 class="list-new-title">
-                                Chế tạo inox theo yêu cầu
-                            </h3>
-                            <p class="list-new-calendar">
-                                <i class="ion-calendar"></i> Ngày đăng:
-                                04-03-2023
-                            </p>
-                            <p class="list-new-des">
-                                Gia công tất cả hình dạng theo yêu cầu của khách
-                                hàng
-                            </p>
-                        </div>
-                    </div>
-                    <div class="list-new">
-                        <div class="list-new-image">
-                            <img
-                                src="/image/TinTuc/ong-he-vi-sinh.jpeg"
-                                alt="ong-vi-sinh"
-                            />
-                        </div>
-                        <div class="list-new-content">
-                            <h3 class="list-new-title">
-                                Gia công lắp đặt đường ống hệ vi sinh và công
-                                nghiệp
-                            </h3>
-                            <p class="list-new-calendar">
-                                <i class="ion-calendar"></i> Ngày đăng: Ngày
-                                đăng: 05-12-2022
-                            </p>
-                            <p class="list-new-des">
-                                Đường ống vi sinh thường được ứng dụng rất nhiều
-                                trong ngành công nghiệp hiện nay, đặc biệt là
-                                ngành thực phẩm, dược phẩm, mỹ phẩm,… Để biết
-                                đường ống vi sinh là gì? quy trình thi công ra
-                                sao và lựa chọn được đơn vị thi công đường ống
-                                inox vi sinh uy tín, hãy liên hệ chúng tôi.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="list-new">
-                        <div class="list-new-image">
-                            <img
-                                src="/image/TinTuc/san-thao-tac.jpeg"
-                                alt="san-thao-tac"
-                            />
-                        </div>
-                        <div class="list-new-content">
-                            <h3 class="list-new-title">
-                                Gia công chế tạo sàn thao tác
-                            </h3>
-                            <p class="list-new-calendar">
-                                <i class="ion-calendar"></i> Ngày đăng: Ngày
-                                đăng: 05-12-2023
-                            </p>
-                            <p class="list-new-des">
-                                Gia công chế tạo sàn theo tác, theo tiêu chuẩn
-                                một số nước công nghiệp, ở các vị trí lắp đặt,
-                                vận hành và sửa chữa thiết bị có độ cao từ 1,2m
-                                trở lên, thì phải có sàn thao tác để làm việc. -
-                                Đối với sàn thao tác ở trên cao thì cần có các
-                                yêu cầu cơ bản như thang leo có lồng bảo vệ,
-                                hoặc cầu thang lên xuống kiểu bậc, bậc thang và
-                                bậc cầu thàng phải đúng quy cách, lan can sàn
-                                thao tác, lan can cầu thang đủ chiều cao và độ
-                                dày tiêu chuẩn. Các tiêu chuẩn an toàn cao còn
-                                có các yêu cầu bổ sung như: sàn thao tác phải có
-                                cửa tự đóng, mặt sàn bắt buộc phải sử dụng vật
-                                liệu chống trượt, các cách bố trí mép sàn.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="list-new list-new-end">
-                        <div class="list-new-image">
-                            <img
-                                src="/image/TinTuc/gia-cong-bon-be.jpeg"
-                                alt="bon-be"
-                            />
-                        </div>
-                        <div class="list-new-content">
-                            <h3 class="list-new-title">Gia công bồn bể</h3>
-                            <p class="list-new-calendar">
-                                <i class="ion-calendar"></i> Ngày đăng: Ngày
-                                đăng: 10-01-2024
-                            </p>
-                            <p class="list-new-des">
-                                Đạt Yến Phát chuyên gia công chế tạo và lắp đặt
-                                bồn bể tank chứa phục vụ các dây chuyền sơn, bể
-                                chứa, bồn chứa hóa chất và phục vụ sản xuất
-                                nguyên liệu, chế biến, gia công bán thành
-                                phẩm.Với kinh nghiệm từ các dự án của đối tác và
-                                khách hàng nước ngoài, các sản phẩm bồn bể cỡ
-                                lớn của chúng tôi luôn đáp ứng được các yêu cầu
-                                kỹ thuật khắt khe trong gia công chế tạo và an
-                                toàn trong lắp đặt, vận hành.Khách hàng có nhu
-                                cầu đặt hàng gia công chế tạo tank bể bồn chứa
-                                cỡ lớn trong công nghiệp vui lòng liên hệ chúng
-                                tôi.
+                        <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
+                            <h1>Bồn khuấy gia nhiệt</h1>
+
+                            <ul>
+                                <li>Bồn Chứa Gia nhiệt là bồn lưu trữ, bảo quản, chế biến sản phẩm với khối lượng lớn, nhỏ và vừa theo mục đích sử dụng.</li>
+                                <li>Được sản xuất từ vật liệu inox304 hoặc 316 hoặc cao hơn theo yêu cầu.</li>
+                            </ul>
+                            <div class="tele">
+                                <a href="../bon-khuay-thuc-pham.html">
+                                    <i class="bi bi-telephone-fill"></i>
+
+                                    <strong>0937093608</strong>
+                                    <br />
+                                    <span>Hotline liên hệ </span>
+                                    <br />
+                                    <span>Báo giá & Đặt hàng</span>
+                                </a>
+                            </div>
+                            <p class="mt-2">
+                                Danh mục :
+                                <a href="../bon-khuay-thuc-pham.html" class="detail"
+                                    >Bồn khuấy thực phẩm</a
+                                >
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end navleft -->
+        <!-- end col-1 -->
+
         <!-- Footer -->
         <footer id="footer">
             <div class="container mt-3">
@@ -562,7 +531,7 @@
 
                         <div class="col-md-3 col-lg-3 footer-adong">
                             <div class="footer-title">
-                                <h2>Thông tin thanh toán</h2>
+                                <h3>Thông tin thanh toán</h3>
                             </div>
                             <div class="footer-content">
                                 <p>Thông tin tài khoản thanh toán</p>
