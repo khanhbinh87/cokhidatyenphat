@@ -46,10 +46,10 @@
 }
 
 .tel {
-    color: rgba(255, 0, 0, 0.619);
+    color: red;
 }
 .tel:hover{
-    color: black;
+    color: green;
 }
 .tel-2:hover{
     color:white;

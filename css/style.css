@@ -132,9 +132,9 @@ a {
 .tel-2 {
     color: black;
 }
-.tel {
-    color: red;
-}
+/* .tel {
+    color: red !important;
+} */
 span {
     color: darkgreen;
 }
@@ -147,7 +147,7 @@ span {
 }
 .imgzalo {
     animation: zoom-in-zoom-out 1s ease infinite;
-    
+    margin:15px;
 }
 
 @keyframes zoom-in-zoom-out {
